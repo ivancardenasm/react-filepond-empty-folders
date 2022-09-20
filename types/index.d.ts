@@ -19,7 +19,7 @@ import * as React from 'react';
 import {
   FilePond as UpstreamFilePond,
   FilePondOptions,
-} from 'filepond';
+} from 'filepond-empty-folders';
 
 // This line shuts off automatic exporting for this module
 // I want to do this so that I can have internal types to this module that make
@@ -35,7 +35,7 @@ type Omit<T, K extends keyof any> = Pick<T, Exclude<keyof T, K>>;
 export {
   registerPlugin,
   FileStatus,
-} from 'filepond';
+} from 'filepond-empty-folders';
 
 export interface FilePondProps extends FilePondOptions {
   // (Temporarily) changed to old definition, see discussion at <https://github.com/pqina/react-filepond/pull/151>
