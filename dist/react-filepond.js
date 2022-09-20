@@ -1,8 +1,8 @@
 /*!
- * react-filepond v7.1.2
+ * react-filepond-empty-folders v0.5.0
  * A handy FilePond adapter component for React
  * 
- * Copyright (c) 2022 PQINA
+ * Copyright (c) 2022 PQINA (https://pqina.nl)
  * https://pqina.nl/filepond
  * 
  * Licensed under the MIT license.
@@ -21,7 +21,7 @@ var _react = require("react");
 
 var _react2 = _interopRequireDefault(_react);
 
-var _filepond = require("filepond");
+var _filepondEmptyFolders = require("filepond-empty-folders");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -35,12 +35,12 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 // We need to be able to call the registerPlugin method directly so we can add plugins
-exports.registerPlugin = _filepond.registerPlugin;
-exports.FileStatus = _filepond.FileStatus;
+exports.registerPlugin = _filepondEmptyFolders.registerPlugin;
+exports.FileStatus = _filepondEmptyFolders.FileStatus;
 
 // Do this once
 
-var isSupported = (0, _filepond.supported)();
+var isSupported = (0, _filepondEmptyFolders.supported)();
 
 // filtered methods
 var filteredMethods = ["setOptions", "on", "off", "onOnce", "appendTo", "insertAfter", "insertBefore", "isAttachedTo", "replaceElement", "restoreElement", "destroy"];
@@ -86,7 +86,7 @@ var FilePond = exports.FilePond = function (_React$Component) {
       }
 
       // Create our pond
-      this._pond = (0, _filepond.create)(this._input, options);
+      this._pond = (0, _filepondEmptyFolders.create)(this._input, options);
 
       // Reference pond methods to FilePond component instance
       Object.keys(this._pond).filter(function (key) {

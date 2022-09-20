@@ -1,8 +1,8 @@
 /*!
- * react-filepond v7.1.2
+ * react-filepond-empty-folders v0.5.0
  * A handy FilePond adapter component for React
  * 
- * Copyright (c) 2022 PQINA
+ * Copyright (c) 2022 PQINA (https://pqina.nl)
  * https://pqina.nl/filepond
  * 
  * Licensed under the MIT license.
@@ -11,7 +11,7 @@
 import React, { createElement, useCallback } from "react";
 
 // Import required methods and styles from the FilePond module, should not need anything else
-import { create, supported, registerPlugin, FileStatus } from "filepond";
+import { create, supported, registerPlugin, FileStatus } from "filepond-empty-folders";
 
 // We need to be able to call the registerPlugin method directly so we can add plugins
 export { registerPlugin, FileStatus };
