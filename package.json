@@ -1,6 +1,6 @@
 {
   "name": "react-filepond-empty-folders",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A handy FilePond adapter component for React",
   "homepage": "https://pqina.nl/filepond",
   "license": "MIT",
@@ -36,7 +36,8 @@
   },
   "peerDependencies": {
     "react": "16 - 18",
-    "react-dom": "16 - 18"
+    "react-dom": "16 - 18",
+    "filepond-empty-folders": "1.0.2"
   },
   "devDependencies": {
     "@types/react": "^16.9.48",
@@ -46,7 +47,6 @@
     "babel-preset-react": "^6.24.1",
     "bannerjs": "^1.0.5",
     "dtslint": "^3.7.0",
-    "filepond-empty-folders": "1.0.2",
     "minicat": "^1.0.0",
     "mkdirp": "^0.5.1",
     "nodemon": "^1.17.3",
