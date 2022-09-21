@@ -1,5 +1,5 @@
 /*!
- * react-filepond-empty-folders v1.0.4
+ * react-filepond-empty-folders v1.0.6
  * A handy FilePond adapter component for React
  * 
  * Copyright (c) 2022 PQINA (https://pqina.nl)
